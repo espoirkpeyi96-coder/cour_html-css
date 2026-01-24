@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plateforme HTML & CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="fade-in">
+        <h2><span>HTML</span>&<strong>CSS</strong></h2>
+        <nav>
+            <input type="checkbox" id="sidebar-active" id="">
+            <label for="sidebar-active" class="open-sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            </label>
+        
+            <div class="links-container">
+                <label for="sidebar-active" class="close-sidebar-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                </label>
+        
+                <a class="home-link" href="#acceuil">Acceuil</a>
+                <a href="#apropos">A propos</a>
+                <a href="#cours">Nos Cours</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+<!--     
+        <h2>Apprendre le HTML & CSS</h2>
+        p>Des cours professionnels pour débutants</p> -->
+    </header>
+<!-- <nav class="slide-down">
+    <a href="index.html">Accueil</a>
+    <a href="#apropos">À propos</a>
+    <a href="#cours">Cours</a>
+    <a href="contact.html">Contact</a>
+</nav> -->
+
+<!-- ACCUEIL -->
+<section id="accueil" class="section animate-up">
+    <h2>Accueil</h2>
+    <div>
+        <p>
+            Le <strong>HTML</strong> structure le contenu des pages web,
+            tandis que le <strong>CSS</strong> permet de gérer le design
+            et la mise en page.
+        </p>
+        <p>
+            Découvrez nos supports PDF et nos tutoriels vidéo
+            pour maîtriser les bases du développement web.
+        </p>
+        <a href="#cours" class="btn">Voir les cours</a>
+    </div>
+  
+</section>
+
+<!-- A PROPOS -->
+<section id="apropos" class="section animate-up">
+    <h2>À propos</h2>
+    <p>
+        Cette plateforme a pour objectif de rendre l’apprentissage
+        du développement web simple, clair et accessible à tous.
+    </p>
+</section>
+
+<!-- COURS -->
+<section id="cours" class="section animate-up">
+    <h2>Cours</h2>
+
+    <div class="cards">
+        <div class="card hover-zoom">
+            <h3>Cours HTML&CSS (PDF)</h3>
+            <p>Support de cours téléchargeable.</p>
+            <iframe src="https://drive.google.com/uc?export=download&id=1fE2g9S2Gb9tsQbTZ4vQeEXrc7rmkjRI5"></iframe>
+            
+        </div>
+
+        <!-- <div class="card hover-zoom">
+            <h3>Cours HTML&CSS (PDF)</h3>
+            <p>Support complet .</p>
+            <a href="pdf/.pdf" target="_blank">Télécharger</a>
+        </div>
+        -->
+
+        <div class="card hover-zoom">
+            <h3>Vidéo 1</h3>
+            <iframe src="https://www.youtube.com/embed/rRt-yvGQST0" frameborder="0" allow="accelerometer;autoplay;clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>         
+        </div>
+
+        <div class="card hover-zoom">
+            <h3>Vidéo 2</h3>
+             <iframe src="https://www.youtube.com/embed/68oSyuKVjeU" frameborder="0" allow="accelerometer;autoplay;clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>      
+        </div>
+    </div>
+</section>
+<!-- CONTACT -->
+<section id="contact" class="section anima
+te-up">
+    <h2>Contact</h2>
+    <p>
+        Pour toute question, n’hésitez pas à nous contacter :
+        <a href="contact.html">Nous contactez</a>
+    </p>
+</section>
+
+<footer class="fade-in">
+    <p>&copy; 2026 Plateforme HTML & CSS. Tous droits réservés.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
