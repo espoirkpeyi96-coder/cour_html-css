@@ -185,6 +185,12 @@ h2 { margin-bottom:20px;
 }
 
 .contact-form button:hover { background-color: #0284c7; }
+#contact span{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: blue;
+}
 
 /* FOOTER */
 footer {
